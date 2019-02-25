@@ -1,0 +1,191 @@
+html {
+	background-color: rgba(248,248,248,1);
+}
+
+html, header, body, footer {
+	max-width: 100%;
+}
+
+* {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(248, 248, 248, 1);
+	position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+}
+
+header .header-index {
+	font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: lighter;
+  color: #111;
+  display: block;
+  text-align: left;
+	float: left;
+	line-height: 27px;
+	padding: 2px;
+  margin: 2.5px;
+	transition: color 0.5s;
+}
+
+header .header-index:hover {
+	color: lightgray;
+}
+
+header nav ul {
+  margin-left: 0px;
+	margin-top: 8px;
+  float: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 15px;
+}
+
+header nav ul li a {
+  font-family: 'Roboto', serif;
+  font-size: 20px;
+  color: #111;
+	transition: color 0.5s;
+}
+
+header nav ul li a:hover {
+	color: lightgray;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+body article {
+  display: block;
+	width: 70vw;
+	margin: 5.5em auto;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-family: Helvetica, sans-serif;
+}
+
+body article p {
+	padding-bottom: 10px;
+}
+
+body article code {
+	background: rgba(230,230,230,1);
+	padding: 4px;
+	border-radius: 2px;
+	border: 1px solid rgba(220,220,220,1);
+}
+
+body article blockquote {
+	background: rgba(235,235,235,1);
+	border-left: 5px solid rgba(100,100,100,1);
+	padding: 10px;
+	font-style: italic;
+}
+
+body article iframe {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.intro {
+  line-height: 2em;
+  margin: 10em auto;
+}
+
+.portrait {
+  border-radius: 100%;
+  width: 10em;
+  padding: 0em 2em;
+  float: right;
+}
+
+.welcome-text, .bodyHeader {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  font-weight: bolder;
+  color: darkblue;
+}
+
+.bodyHeader {
+	padding-top: 30px;
+}
+
+.welcome-index {
+  width: 100%;
+  height: calc(100vh + 500px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid #111;
+}
+
+.projects {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+	background-color: lightgray;
+	height: 500px;
+}
+
+.skills {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+	height: 500px;
+}
+
+.projectInfo {
+	font-family: 'Roboto Mono', monospace;
+	color: #111;
+}
+
+.projectHeader, .skillsHeader {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	color: darkblue;
+}
+
+.projectInfo span h2 {
+	font-weight: lighter;
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.projectInfo span {
+	display: inline-block;
+}
+
+.projectInfo span .projectSpanOne {
+}
+
+.codeIcon {
+	width: 40px; height: auto; white-space: nowrap; padding-right: 20px;
+	vertical-align: bottom;
+}
+
+.projectInfo p {
+	display: block;
+	width: 70vw;
+	margin: 5.5px auto;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-family: Helvetica, sans-serif;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
