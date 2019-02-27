@@ -113,6 +113,12 @@ body article h1 {
 	font-size: 30px;
 }
 
+.aboutone {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
 .icons {
 	float: left;
 	margin-left: 50px;
@@ -121,4 +127,8 @@ body article h1 {
 
 .descript-text p {
 	font-size: 20px;
+}
+
+.profile {
+	padding-bottom: 50px;
 }
