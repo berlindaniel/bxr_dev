@@ -73,8 +73,8 @@ body {
 
 body article {
   display: block;
-	width: 70vw;
-	margin: 5.5em auto;
+	width: 90vw;
+	margin: 3.5em auto;
 	font-size: 1.2em;
 	line-height: 1.5em;
 	font-family: Helvetica, sans-serif;
@@ -82,6 +82,12 @@ body article {
 
 body article p {
 	padding-bottom: 10px;
+}
+
+body article h1 {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 45px;
+	font-weight: lighter;
 }
 
 body article code {
@@ -188,4 +194,21 @@ body article iframe {
 	font-family: Helvetica, sans-serif;
 	padding-top: 5px;
 	padding-bottom: 10px;
+}
+
+.headline {
+	padding-top: 15px;
+	color: white;
+}
+
+.one {
+	font-family: 'Cormorant Garamond', serif;
+	height: 800px;
+	background-color: lightcoral;
+}
+
+.two p {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: lighter;
+	font-size: 45px;
 }
