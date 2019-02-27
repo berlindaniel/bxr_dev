@@ -104,7 +104,9 @@ body article h1 {
 	font-family: 'Quicksand', sans-serif;
 	height: 600px;
 	width: 100%;
-	background-image: url("img/apartment.jpg");
+	background-image: url("img/apartment.jpg"), url("img/staircase.jpg"), url("img/facade.jpg");
+	background-position: left, right top, right bottom;
+	background-repeat: no-repeat;
 }
 
 .two p {
