@@ -111,12 +111,13 @@ footer {
 
 .footer-box {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	margin: 10%;
 }
 
 .footer-box-elem {
-	margin-right: 70px;
+	margin: 40px;
 }
 
 .footer-box-elem a {
