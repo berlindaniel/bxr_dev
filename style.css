@@ -134,6 +134,7 @@ footer {
 /* INDEX.HTML */
 
 .headline {
+	text-align: center;
 	padding-top: 15px;
 	color: white;
 }
@@ -186,7 +187,8 @@ footer {
 
 /* BENEFITS DROPDOWN */
 .dropdown {
-  text-decoration: underline;
+  display: inline-block;
+	border-bottom: 2px solid currentColor;
 }
 .dropdown-content {
 	display: none;
