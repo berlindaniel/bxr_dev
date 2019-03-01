@@ -8,13 +8,21 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amiri|Cormorant+Garamond" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" async></script>
+    <script src="js/main.js" async></script>
   </head>
   <header>
     <a class="header-index" href="index.html">bxr</a>
     <nav>
       <ul>
+        <li> <a class="dropbtn">
+        <div class="dropdown"><a>Benefits &#8681;</a><div class="dropdown-content">
+          <a href="#">For Brands</a>
+          <a href="#">For Owners</a>
+          <a href="#">For Renters</a>
+        </div>
+        </div></a></li>
         <li> <a href="about.html"> About </a> </li>
         <li> <a href="#hiw"> How it Works </a> </li>
       </ul>
@@ -23,7 +31,7 @@
   <body>
     <section class="one">
       <article class="headline">
-        <h1>Experience a new way to travel.</h1>
+        <h1 style="font-size: 40px;">Experience a new way to travel.</h1>
       </article>
     </section>
     <section class="two" id="hiw">
@@ -31,19 +39,26 @@
          <p>How it Works</p>
       </article>
       <article class="descript-text">
-        <img style="margin-right: 80px;" src="img/product.svg" alt="" height="100px" class="icons">
+        <div id="wantedonscroll"></div>
+        <div class="fadein">
+           <img style="margin-right: 80px;" src="img/product.svg" alt="" height="100px" class="icons">
+        </div>
         <p>AirBnb customers will have the opportunity to test and sample popular
         products from their favorite brands. There's only one cavaet: you'll have to take a brief survey
         documenting your experience with the product if you want to use it.</p>
       </article>
       <br>
       <article class="descript-text">
-        <img style="margin-right: 80px;" src="img/data.svg" alt="" height="100px" class="icons">
+        <div class="fadein">
+          <img style="margin-right: 80px;" src="img/data.svg" alt="" height="100px" class="icons">
+        </div>
         <p>BXR will share the resulting data with the brands that make these popular products.</p>
       </article>
       <br>
       <article style="margin-bottom: 100px;" class="descript-text">
-        <img style="margin-right: 80px;" src="img/money.svg" alt="" height="100px" class="icons">
+        <div class="fadein">
+          <img style="margin-right: 80px;" src="img/money.svg" alt="" height="100px" class="icons">
+        </div>
         <p>Customers are rewarded monetarily or on the BXR points system, which can lead to
         future BXR rewards!</p>
       </article>
