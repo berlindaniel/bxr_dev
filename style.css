@@ -207,12 +207,9 @@ footer {
 
 /* BENEFITS DROPDOWN */
 .dropdown {
-<<<<<<< HEAD
 	display: inline-block;
-=======
   display: inline-block;
->>>>>>> 62cce70d1e4714bea1f01232053d0634ecd17fab
-	border-bottom: 2px solid currentColor;
+	border-bottom: .08px solid currentColor;
 }
 .dropdown-content {
 	display: none;
